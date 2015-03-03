@@ -1,2 +1,2 @@
 # AngularIn20TypeScript
-Simple AngularJS Applications with TypeScript
+Simple AngularJS Application with TypeScript
