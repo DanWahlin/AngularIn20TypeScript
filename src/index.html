@@ -1,9 +1,10 @@
 <!--
-   AngularJS in 20-ish Minutes
+   AngularJS with TypeScript in 20-ish Minutes
    Dan Wahlin
 
    @DanWahlin
    http://weblogs.asp.net/dwahlin
+   http://github.com/danwahlin
 
    1. Data Binding and Directives
    2. Filters
@@ -15,10 +16,12 @@
 <html ng-app="demoApp">
 <head>
     <title>Angular App</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
     <link href="styles/animations.css" rel="stylesheet" />
 </head>
 <body>
     <h1>AngularJS and TypeScript in 20-ish Minutes</h1>
+    <br />
 
     <div ng-view class="slide-animation"></div>
 
@@ -29,5 +32,6 @@
     <script src="js/controllers/customers.controller.js"></script>
     <script src="js/controllers/orders.controller.js"></script>
     <script src="js/services/customers.service.js"></script>
+    <script src="js/directives/filterTextbox.directive.js"></script>
 </body>
 </html>
