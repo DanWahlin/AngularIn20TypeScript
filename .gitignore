@@ -15,9 +15,10 @@
 Icon
 
 node_modules
-tools/typings
+!tools/typings
+tools/typings/*
 !tools/typings/tsd.d.ts
-!tools/typings/expenseApp.d.ts
+!tools/typings/typescriptApp.d.ts
 **/bower_packages
 
 # all generated JS
