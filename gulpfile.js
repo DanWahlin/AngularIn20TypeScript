@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     tsc = require('gulp-typescript'),
     tslint = require('gulp-tslint'),
     sourcemaps = require('gulp-sourcemaps'),
-    clean = require('gulp-clean'),
+    rimraf = require('gulp-rimraf'),
     Config = require('./gulpfile.config');
 
 var config = new Config();
@@ -56,7 +56,7 @@ gulp.task('compile-ts', function () {
 });
 
 /**
- * Remove all generated JavaScript files from TypeScript compiltion.
+ * Remove all generated JavaScript files from TypeScript compilation.
  */
 gulp.task('clean-ts', function () {
   var typeScriptGenFiles = [config.tsOutputPath,            // path to generated JS files
@@ -66,7 +66,7 @@ gulp.task('clean-ts', function () {
 
   // delete the files
   return gulp.src(typeScriptGenFiles, {read: false})
-      .pipe(clean());
+      .pipe(rimraf());
 });
 
 gulp.task('watch', function() {
