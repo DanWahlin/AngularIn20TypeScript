@@ -1,11 +1,11 @@
 # AngularIn20TypeScript
-Simple AngularJS Application with TypeScript, you can view video about typescript and angular2 at ngconf2015 on [youtube](https://www.youtube.com/watch?list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7&feature=player_embedded&v=U7NYTKgkZgo)
+Simple AngularJS Application with TypeScript, you can view video about typescript and angular in 20 minutes at ngconf2015 on [youtube](https://www.youtube.com/watch?list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7&feature=player_embedded&v=U7NYTKgkZgo)
 
 # Usage
 
 - Install global dependencies **if necessary**
 
-        npm install -f gulp bower http-server
+        npm install -g gulp bower
 
 - Install node packages:
 
@@ -25,6 +25,6 @@ Simple AngularJS Application with TypeScript, you can view video about typescrip
 
 - Launch the server
 
-        cd src; http-server
+        superstatic
 
-- Open browser at <http://0.0.0.0:8080>
+- Open browser at <http://localhost:3474/>
