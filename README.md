@@ -5,7 +5,17 @@ Simple AngularJS Application with TypeScript, you can view video about typescrip
 
 - Install global dependencies **if necessary**
 
-        npm install -g gulp bower
+        npm install -g gulp-cli bower tsd superstatic
+
+or add `node_modules/.bin` to $PATH:
+
+Windows:
+
+		set PATH=%PATH%;node_modules\.bin
+
+Linux / OSX:
+
+		set PATH=$PATH:node_modules/.bin
 
 - Install node packages:
 
