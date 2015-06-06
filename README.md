@@ -9,11 +9,11 @@ Simple AngularJS Application with TypeScript, you can view video about typescrip
 
 or add `node_modules/.bin` to $PATH:
 
-Windows:
+- Windows:
 
         set PATH=%PATH%;node_modules\.bin
 
-Linux / OSX:
+- Linux / OSX:
 
         set PATH=$PATH:node_modules/.bin
 
