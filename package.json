@@ -15,14 +15,17 @@
   "license": "ISC",
   "dependencies": {
     "superstatic": "^2.0.2"
+    "superstatic": "^2.2.0"
   },
   "devDependencies": {
+    "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-debug": "^2.0.1",
     "gulp-inject": "^1.2.0",
     "gulp-sourcemaps": "^1.5.1",
     "gulp-tslint": "^1.4.4",
     "gulp-typescript": "^2.5.0",
-    "gulp-rimraf": "^0.1.1"
+    "gulp-tsd": "0.0.4",
+    "tsd": "^0.5.7"
   }
 }
