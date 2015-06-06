@@ -7,17 +7,17 @@ Simple AngularJS Application with TypeScript, you can view video about typescrip
 
         npm install -g gulp-cli bower tsd superstatic
 
-or add `node_modules/.bin` to $PATH:
+..*or add `node_modules/.bin` to $PATH:
 
-- Windows:
+..* Windows:
 
         set PATH=%PATH%;node_modules\.bin
 
-- Linux / OSX:
+..* Linux / OSX:
 
         set PATH=$PATH:node_modules/.bin
 
-- Install node packages:
+1. Install node packages:
 
         npm install
 
