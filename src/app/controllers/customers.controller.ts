@@ -10,8 +10,8 @@ module demoApp {
         static $inject = ['demoApp.customersService'];
         constructor(customersFactory) {
             customersFactory.getCustomers()
-              .success((custs) => {
-                 this.customers = custs;
+              .then((response) => {
+                 this.customers = response.data;
               });
         }
     }
