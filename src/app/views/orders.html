@@ -1,15 +1,15 @@
 <h3>Orders</h3>
-
-CustomerID: {{ vm.customerId }}
 <br />
-<table>
+CustomerID: {{ vm.customerId }}
+<br /><br />
+<table class="table table-striped">
     <tr>
-        <td>Baseball</td>
-        <td>$9.99</td>
+        <th>Product</th>
+        <th>Total</th>
     </tr>
-    <tr>
-        <td>Bat</td>
-        <td>$19.99</td>
+    <tr ng-repeat="order in vm.orders">
+        <td>{{order.product}}</td>
+        <td>{{order.total}}</td>
     </tr>
 </table>
 

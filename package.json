@@ -1,11 +1,10 @@
 {
   "name": "angularjs-typescript-in20",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "AngularJS and TypeScript",
   "contributors": [
     {
-      "name": "Dan Wahlin",
-      "email": "dwahlin@wahlinconsulting.com"
+      "name": "Dan Wahlin"
     }
   ],
   "keywords": [
@@ -14,17 +13,17 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "superstatic": "^2.2.0"
+    "superstatic": "^2.2.1"
   },
   "devDependencies": {
-    "del": "^1.1.1",
-    "gulp": "^3.8.11",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
     "gulp-debug": "^2.0.1",
-    "gulp-inject": "^1.2.0",
-    "gulp-sourcemaps": "^1.5.1",
-    "gulp-tslint": "^1.4.4",
-    "gulp-typescript": "^2.5.0",
-    "gulp-tsd": "0.0.4",
-    "tsd": "^0.5.7"
+    "gulp-inject": "^1.5.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "^3.1.1-beta",
+    "gulp-typescript": "^2.8.0",
+    "gulp-tsd": "^0.0.4",
+    "tsd": "^0.6.3"
   }
 }

@@ -2,7 +2,13 @@
     <filter-textbox filter="vm.filter"></filter-textbox>
     <br />
     <h3>Customers:</h3>
-    <table>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Total</th>
+            </tr>
+        </thead>
         <tr ng-repeat="cust in vm.customers |  filter:vm.filter | orderBy:'name'">
             <td><a href="#/orders/{{ cust.id }}">{{ cust.name  }}</a></td>
             <td>{{ cust.total | currency }}</td>
