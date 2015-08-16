@@ -7,23 +7,29 @@
       "name": "Dan Wahlin"
     }
   ],
+  "scripts": {
+    "start": "gulp serve",
+    "postinstall": "tsd reinstall -so && gulp"
+  },
   "keywords": [
     "angularjs",
     "typescript"
   ],
   "license": "ISC",
   "dependencies": {
-    "superstatic": "^2.2.1"
+
   },
   "devDependencies": {
-    "del": "^1.2.0",
+    "browser-sync": "^2.8.2",
+    "del": "^1.2.1",
     "gulp": "^3.9.0",
-    "gulp-debug": "^2.0.1",
+    "gulp-debug": "^2.1.0",
     "gulp-inject": "^1.5.0",
     "gulp-sourcemaps": "^1.5.2",
-    "gulp-tslint": "^3.1.1-beta",
+    "gulp-tslint": "^3.2.0",
     "gulp-typescript": "^2.8.0",
     "gulp-tsd": "^0.0.4",
-    "tsd": "^0.6.3"
+    "tsd": "^0.6.3",
+    "superstatic": "^1.2.3"
   }
 }

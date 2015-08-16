@@ -1,6 +1,6 @@
 'use strict';
 var GulpConfig = (function () {
-    function GulpConfig() {
+    function gulpConfig() {
         //Got tired of scrolling through all the comments so removed them
         //Don't hurt me AC :-)
         this.source = './src/';
@@ -12,8 +12,7 @@ var GulpConfig = (function () {
 
         this.typings = './tools/typings/';
         this.libraryTypeScriptDefinitions = './tools/typings/**/*.ts';
-        this.appTypeScriptReferences = this.typings + 'typescriptApp.d.ts';
     }
-    return GulpConfig;
+    return gulpConfig;
 })();
 module.exports = GulpConfig;

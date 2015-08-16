@@ -11,16 +11,7 @@ Simple AngularJS Application with TypeScript, you can view video about typescrip
 
         npm install
 
-2. Retrieve typescript definitions list
+2. Launch the server
 
-        tsd reinstall -so
+        npm start
 
-3. Run gulp
-
-        gulp
-
-4. Launch the server
-
-        superstatic
-
-5. Open browser at <http://localhost:3474/>

@@ -1,6 +1,3 @@
-///<reference path="../../tools/typings/tsd.d.ts" />
-///<reference path="../../tools/typings/typescriptApp.d.ts" />
-
 ((): void => {
 
     var app = angular.module('demoApp', ['ngRoute', 'ngAnimate']);
