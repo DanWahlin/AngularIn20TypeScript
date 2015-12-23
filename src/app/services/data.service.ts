@@ -23,7 +23,7 @@ module demoApp {
         }
 
         getOrder(id: number): ng.IPromise<IOrder[]> {
-            return this.$http.get('orders.json', { id: id }).then(response => {
+            return this.$http.get('orders.json', {data: { id: id }}).then(response => {
                return response.data;
             });
         }
