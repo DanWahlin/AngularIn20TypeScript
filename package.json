@@ -24,17 +24,16 @@
 
   },
   "devDependencies": {
-    "browser-sync": "^2.10.1",
+    "browser-sync": "^2.12.5",
     "del": "^2.2.0",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-debug": "^2.1.2",
-    "gulp-inject": "^3.0.0",
+    "gulp-inject": "^4.0.0",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-tslint": "^4.2.1",
-    "gulp-typescript": "^2.10.0",
-    "gulp-tsd": "^0.0.4",
-    "typescript": "^1.7.5",
-    "superstatic": "^4.0.0",
-    "tslint": "^3.2.1"
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^2.13.0",
+    "typescript": "^1.8.10",
+    "superstatic": "^4.0.2",
+    "tslint": "^3.8.1"
   }
 }
