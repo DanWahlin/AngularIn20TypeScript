@@ -1,27 +1,5 @@
-# Created by .ignore support plugin (hsz.mobi)
-### JetBrains template
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
-
-*.iml
-
-## Directory-based project format:
-.idea/
-
-### OSX template
-.DS_Store
-.AppleDouble
-.LSOverride
-# Icon must end with two \r
-Icon
-
 node_modules
-!tools/typings
-tools/typings/*
-!tools/typings/tsd.d.ts
-!tools/typings/typescriptApp.d.ts
-**/bower_packages
-
-# all generated JS
+npm-debug.log
 src/js
 src/app/**/*.js
 src/app/**/*.js.map
