@@ -7,6 +7,10 @@
       "name": "Dan Wahlin"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanWahlin/AngularIn20TypeScript"
+  },
   "scripts": {
     "start": "gulp serve",
     "postinstall": "tsd reinstall -so && gulp"
@@ -29,7 +33,6 @@
     "gulp-tslint": "^4.2.1",
     "gulp-typescript": "^2.10.0",
     "gulp-tsd": "^0.0.4",
-    "tsd": "^0.6.5",
     "typescript": "^1.7.5",
     "superstatic": "^4.0.0",
     "tslint": "^3.2.1"
