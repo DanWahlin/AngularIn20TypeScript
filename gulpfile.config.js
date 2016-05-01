@@ -10,8 +10,8 @@ var GulpConfig = (function () {
         this.allJavaScript = [this.source + '/js/**/*.js'];
         this.allTypeScript = this.sourceApp + '/**/*.ts';
 
-        this.typings = './tools/typings/';
-        this.libraryTypeScriptDefinitions = './tools/typings/**/*.ts';
+        this.typings = './typings/';
+        this.libraryTypeScriptDefinitions = './typings/main/**/*.ts';
     }
     return gulpConfig;
 })();
